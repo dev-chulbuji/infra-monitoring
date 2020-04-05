@@ -1,14 +1,9 @@
-{
-    "apiversion": 1,
-    "datasources": [
-        {
-           "access":"proxy",
-            "editable": true,
-            "name": "prometheus",
-            "orgid": 1,
-            "type": "prometheus",
-            "url": "http://localhost:9090",
-            "version": 1
-        }
-    ]
-}
+apiVersion: 1
+datasources:
+  - name: prometheus
+    type: prometheus
+    editable: false
+    access: proxy
+    orgid: 1
+    version: 1
+    url: http://docker.for.mac.host.internal:9090
