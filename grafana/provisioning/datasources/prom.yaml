@@ -1,0 +1,14 @@
+{
+    "apiversion": 1,
+    "datasources": [
+        {
+           "access":"proxy",
+            "editable": true,
+            "name": "prometheus",
+            "orgid": 1,
+            "type": "prometheus",
+            "url": "http://localhost:9090",
+            "version": 1
+        }
+    ]
+}
